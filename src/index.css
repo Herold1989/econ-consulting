@@ -6,7 +6,11 @@
   --overlay: rgba(0,0,0,.7);
 }
 
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
@@ -30,7 +34,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.button {
   padding: 17px 28px;
   font-size: 1.2rem;
   color: #fff;
