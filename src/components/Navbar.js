@@ -2,6 +2,8 @@ import React from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from './images/logo.png'
 
+import './Navbar.css'
+
 const Navbar = () => {
   return (
     <div className = 'header'> 
@@ -29,7 +31,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='nav-item'>
-                           <a href='/' >Demo</a>     
+                           <a href='/' >Demo </a>     
                     </li>
 
 
