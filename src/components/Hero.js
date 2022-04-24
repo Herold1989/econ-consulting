@@ -8,7 +8,7 @@ const Hero = () => {
             <p>Call us</p>
             <p>+55 11 123-4567</p>
             <p>Porque Dinheiro</p>
-            <p>não venha sem conselho</p>
+            <p>não vem sem orientação...</p>
             <button href='/' className='button'>Consulta Gratuita</button>
         </div>
     </div>
