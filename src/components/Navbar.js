@@ -7,6 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+    const closeMenu = () => setClick(false)
 
   return (
     <div className = 'header'> 
@@ -23,19 +24,19 @@ const Navbar = () => {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
 
                     <li className='nav-item'>
-                           <a href='/' >Home</a>     
+                           <a href='#hero' onClick={closeMenu}>Home</a>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='/' >About</a>     
+                           <a href='#about'onClick={closeMenu}>About</a>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='/' >Testimonials</a>     
+                           <a href='#testimonials'onClick={closeMenu}>Testimonials</a>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='/' >Demo </a>     
+                           <a href='#demo' onClick={closeMenu}>Demo </a>     
                     </li>
 
 
