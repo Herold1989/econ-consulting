@@ -11,7 +11,7 @@ const About = () => {
                 <h2>About</h2>
                 <span className='line'></span>
                 <p>HeroldEcon é uma empresa de Planejamento Financeiro Internacional com escritórios em múltiplas jurisdições em todo o mundo. Trabalhar com HeroldEcon me dá a capacidade de aconselhar expatriados internacionais que vivem no Oriente Médio de onde eu moro em São Paulo, Brasil.</p>
-                <p>Eu sou Jens Herold CEO de uma empresa independente de planejamento financeiro chamada Herold Econ.</p>
+                <p>Eu sou Jens Herold CEO de uma empresa independente de planejamento financeiro chamada HeroldEcon.</p>
                 <button className='button'> Explora Mais</button>
 
             </div>
