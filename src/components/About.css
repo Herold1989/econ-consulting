@@ -44,6 +44,11 @@
 
 }
 
+.about img {
+    width: 450px;
+    height: auto;
+}
+
 @media screen and (max-width:940px) {
     .about .container {
         grid-template-columns: 1fr;
@@ -55,7 +60,7 @@
 
     .about .container img {
         padding: 0rem;
-        width: 90vw;
+        width: 80vw;
     }
 
     .about .container .col-2 {

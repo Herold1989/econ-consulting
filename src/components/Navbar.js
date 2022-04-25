@@ -28,15 +28,15 @@ const Navbar = () => {
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#about'onClick={closeMenu}>About</a>     
+                           <a href='#about'onClick={closeMenu}>Sobre nós</a>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#testimonials'onClick={closeMenu}>Testimonials</a>     
+                           <a href='#testimonials'onClick={closeMenu}>Depoimentos</a>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#demo' onClick={closeMenu}>Demo </a>     
+                           <a href='#demo' onClick={closeMenu}>Conhecer </a>     
                     </li>
 
 
