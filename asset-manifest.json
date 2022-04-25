@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/econ-consulting/static/css/main.2a1bfc06.css",
+    "main.css": "/econ-consulting/static/css/main.4a0c6295.css",
     "main.js": "/econ-consulting/static/js/main.5ec4a5b6.js",
     "static/media/hero2.jpeg": "/econ-consulting/static/media/hero2.f82a74f273fbf76b3c4b.jpeg",
     "static/media/jens.png": "/econ-consulting/static/media/jens.e41619c51d99adcd8429.png",
     "static/media/logo_HEFC.png": "/econ-consulting/static/media/logo_HEFC.9fc666796893806cd6aa.png",
     "index.html": "/econ-consulting/index.html",
-    "main.2a1bfc06.css.map": "/econ-consulting/static/css/main.2a1bfc06.css.map",
+    "main.4a0c6295.css.map": "/econ-consulting/static/css/main.4a0c6295.css.map",
     "main.5ec4a5b6.js.map": "/econ-consulting/static/js/main.5ec4a5b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a1bfc06.css",
+    "static/css/main.4a0c6295.css",
     "static/js/main.5ec4a5b6.js"
   ]
 }
