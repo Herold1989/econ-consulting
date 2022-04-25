@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from './images/logo_HEFC.png'
+import {Link} from 'react-scroll'
 
 import './Navbar.css'
 
@@ -23,19 +24,19 @@ const Navbar = () => {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
 
                     <li className='nav-item'>
-                           <a href='#hero' onClick={closeMenu}>Home</a>     
+                           <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#about'onClick={closeMenu}>Sobre nós</a>     
+                           <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Sobre nós</Link>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#testimonials'onClick={closeMenu}>Depoimentos</a>     
+                           <Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Depoimentos</Link>     
                     </li>
 
                     <li className='nav-item'>
-                           <a href='#demo' onClick={closeMenu}>Conhecer </a>     
+                           <Link to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Conhecer </Link>     
                     </li>
 
 
