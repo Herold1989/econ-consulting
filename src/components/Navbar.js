@@ -12,9 +12,8 @@ const Navbar = () => {
   return (
     <div className = 'header'> 
         <nav className='navbar'>
-            <a href='#home' className = 'logo'>
                 <img src={logo} alt='logo' />
-                </a>
+
                 <div className = 'hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{color: '#ffffff'}}/>) 
                     : (<FaBars size={30} style={{color: '#ffffff'}}/>)}
